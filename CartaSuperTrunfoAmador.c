@@ -34,7 +34,7 @@ int main () {
         scanf("%d", &turistico);
 
         //Código que vai pegar as informações dadas pelo usuário da carta 2
-        printf("Insira a letra do estado 2:");
+        printf("\nInsira a letra do estado 2:");
         scanf(" %c", &estado2); 
        
         printf("Insira o código da carta 2:");
@@ -56,14 +56,14 @@ int main () {
         scanf("%d", &turistico2);
 
         //Código que vai exibir as informações coletadas da carta 1
-        printf("Carta 1 \n");
+        printf("\nCarta 1 \n");
         printf("Estado: %c \nCódigo: %s \nNome da Cidade: %s \n", estado, codigo, cidade);
         printf("População: %d \nÁrea: %f \nPib: %f \n", populacao, area, pib);
         printf("Número de Pontos Túristicos: %d \n", turistico);
 
 
         //Código que vai exibir as informações coletadas da carta 2
-        printf("Carta 2 \n");
+        printf("\nCarta 2 \n");
         printf("Estado: %c \nCódigo: %s \nNome da Cidade: %s \n", estado2, codigo2, cidade2);
         printf("População: %d \nÁrea: %f \nPib: %f \n", populacao2, area2, pib2);
         printf("Número de Pontos Túristicos: %d \n", turistico2);
