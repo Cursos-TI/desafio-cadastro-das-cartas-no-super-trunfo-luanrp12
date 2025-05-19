@@ -67,6 +67,8 @@ int main () {
         printf("População: %d \nÁrea: %f \nPib: %f \n", populacao2, area2, pib2);
         printf("Número de Pontos Túristicos: %d \n", turistico2);
 
+        //teste
+
         return 0;
 
 
