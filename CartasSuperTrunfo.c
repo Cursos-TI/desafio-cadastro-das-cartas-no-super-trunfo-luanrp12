@@ -11,8 +11,7 @@ int main () {
     float pib, pib2; // Variavel para definir o numero do pib da carta
     int turistico, turistico2; //Variavel para definir o numero de pontos turisticos da carta
 
-    //Código que vai pegar as informações dadas pelo usuário tanto da carta 1 quanto da 2
-
+    //Código que vai pegar as informações dadas pelo usuário da carta 1
         printf("Insira a letra do estado:");
         scanf(" %c", &estado);
        
@@ -34,6 +33,7 @@ int main () {
         printf("Insira a quantidade de pontos turisticos:");
         scanf("%d", &turistico);
 
+        //Código que vai pegar as informações dadas pelo usuário da carta 2
         printf("Insira a letra do estado 2:");
         scanf(" %c", &estado2); 
        
@@ -55,19 +55,20 @@ int main () {
         printf("Insira a quantidade de pontos turisticos 2:");
         scanf("%d", &turistico2);
 
-        //Código que vai exibir as informações coletadas tanto da carta 1 quanto da 2
-
+        //Código que vai exibir as informações coletadas da carta 1
         printf("Carta 1 \n");
         printf("Estado: %c \nCódigo: %s \nNome da Cidade: %s \n", estado, codigo, cidade);
         printf("População: %d \nÁrea: %f \nPib: %f \n", populacao, area, pib);
         printf("Número de Pontos Túristicos: %d \n", turistico);
 
+
+        //Código que vai exibir as informações coletadas da carta 2
         printf("Carta 2 \n");
         printf("Estado: %c \nCódigo: %s \nNome da Cidade: %s \n", estado2, codigo2, cidade2);
         printf("População: %d \nÁrea: %f \nPib: %f \n", populacao2, area2, pib2);
         printf("Número de Pontos Túristicos: %d \n", turistico2);
 
-        //teste
+    
 
         return 0;
 
