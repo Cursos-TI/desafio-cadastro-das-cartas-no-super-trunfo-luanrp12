@@ -2,7 +2,7 @@
 
 int main () {
 
-//Código do nível itermediário do jogo Super Trunfo
+//Código do nível Avançado do jogo Super Trunfo
     char estado, estado2; // Variavel pra definir a letra da carta
     char codigo[4], codigo2[4]; // Variavel para definir o código da carta
     char cidade[50], cidade2[50]; // Variavel para definir o nome da carta
